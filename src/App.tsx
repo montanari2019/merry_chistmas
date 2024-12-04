@@ -14,11 +14,11 @@ function App() {
       </div>
       <section className={styled.section}>
         <header className={styled.header}>
-          <a target="_blank" href="#" className={styled.buttonHeader}>
+          <a target="_blank" href="https://github.com/montanari2019" className={styled.buttonHeader}>
             about the autor
           </a>
-          <a target="_blank" href="#" className={styled.buttonHeader}>
-            Repository code
+          <a target="_blank" href="https://github.com/montanari2019/merry_chistmas" className={styled.buttonHeader}>
+            Repository 
           </a>
         </header>
 
