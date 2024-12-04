@@ -1,0 +1,33 @@
+.snow {
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.snow > span {
+    width: 5px;
+    height: 5px;
+    background-color: #ffffff8d;
+    position: absolute;
+    left: calc(var(--random-x) * 100vw); /* Aleatoriza a posição horizontal */
+    border-radius: 50%;
+    box-shadow: 0 0 5px var(--WHITE);
+    animation: snowAnimated calc(var(--random-duration) * 10s) linear infinite; /* Duração aleatória */
+    animation-delay: calc(var(--random-delay) * 0.1s);
+}
+
+@keyframes snowAnimated {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(100vh); /* Move os flocos para o final da tela */
+    }
+}
