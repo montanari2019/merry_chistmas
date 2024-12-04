@@ -67,3 +67,18 @@
   transition: all 0.3s;
   box-shadow: 0 0 20px 2px #f2b02c;
 }
+
+
+@media (max-width: 1025px) {
+
+  .header{
+    flex-direction: column ;
+    text-align: center;
+    gap: 1rem;
+  }
+  .buttonHeader{
+    width: 100%;
+    padding: 0.5rem 3rem;
+    font-size: 0.85rem;
+  }
+}

@@ -3,7 +3,7 @@ import imageNatal from "./assets/christmas-celebration-with-decorated-tree.jpg";
 import { Snow } from "./components/snow/snow";
 import { Titles } from "./components/titles/titles";
 import styled from "./styled.module.css";
-function App() {
+export function App() {
  
 
   return (
@@ -28,4 +28,3 @@ function App() {
   );
 }
 
-export default App;
