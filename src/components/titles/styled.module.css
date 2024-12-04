@@ -9,6 +9,7 @@
   .title {
     width: 100%;
     font-size: 8rem;
+    overflow: hidden;
     text-align: center;
     font-family: "Meow Script", cursive;
     transition: opacity 1s ease-in-out;
